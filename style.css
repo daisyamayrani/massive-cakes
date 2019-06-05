@@ -1,0 +1,360 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  SITE-CONTENT
+*/
+
+.site-content {
+	background-color: grey;
+	width: 100%;
+	height: 100%;
+}
+
+/*  top-social-section
+*/
+
+
+.top-social-section {
+  background-color: black;
+  height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+}
+
+.top-social-section a {
+	color: white;
+  font-size: 25px;
+	margin: 20px;
+}
+
+.top-social-section a:link {
+	color: white;
+}
+.top-social-section  a:hover {
+	color: #F6C3B5;
+}
+.top-social-section a:active {
+  color: #efeade;
+}
+/*  main-menu-section
+*/
+
+.main-menu-section {
+	position: relative;
+	height: 70px;
+	font-size: 25px;
+	margin-bottom: 20px;
+
+}
+.main-menu-section .menu-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+	z-index: 3;
+}
+
+.main-menu-section .menu-links ul {
+	display: flex;
+	flex-basis: auto;
+
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.main-menu-section .menu-links ul li {
+	color: white;
+	height: 20px;
+}
+
+.main-menu-section .menu-links ul li a {
+	text-decoration: none;
+	margin: 60px 20px 20px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	color: white;
+}
+
+.main-menu-section .menu-links ul li a:link {
+	/* color: white; */
+}
+
+.main-menu-section .menu-links ul li a:hover {
+	color: #F2E1DD;
+}
+.main-menu-section .menu-links ul li a:active {
+	color: #902E13;
+}
+
+.link1 {
+	flex: 1;
+}
+
+.link2 {
+	flex: 1;
+}
+.link3 {
+	flex: 1;
+}
+.link4 {
+	flex: 1.5;
+}
+
+
+
+/* title-image-section */
+
+.title-image-section {
+	background-image: url("https://images.pexels.com/photos/227432/pexels-photo-227432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+	width: 100%;
+	height: 100vh;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+  text-align: center;
+  color: white;
+}
+.title-image-section .title-container {
+
+}
+.title-image-section .title-container h1{
+	display: flex;
+  height: 600px;
+	font-size: 80px;
+  justify-content: center;
+  align-items: center;
+	text-align: center;
+	color:  #efeade;
+	font-family: 'Rock Salt', cursive;
+
+}
+
+/* cakes-cakepops-section */
+
+.cakes-cakepops-section {
+	display: grid;
+  height: auto;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: auto;
+	border-bottom: 15px solid #EEE6E3;
+}
+
+.cakes-cakepops-section .sections{
+		margin: 70px;
+		color: #efeade;
+		text-align: center;
+}
+.cakes-cakepops-section .cakes{
+	grid-column: 2 / 6;
+}
+
+.cakes-cakepops-section .cakepops {
+	grid-column: 7 / 11;
+}
+
+.cakes-cakepops-section .sections img {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: 10px solid #EEE6E3;
+	height: 100%;
+	width: 100%;
+}
+
+.cakes-cakepops-section .sections h1 {
+	font-size: 35px;
+	margin: 30px;
+	font-family: 'Bad Script', sans-serif;
+
+}
+.cakes-cakepops-section .sections h5 {
+	font-size: 18px;
+	font-family: 'Bad Script', sans-serif;
+}
+
+
+/* Order Phone Section  */
+
+.order-phone-section {
+	background-image : url("https://images.pexels.com/photos/1857157/pexels-photo-1857157.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+  text-align: center;
+  color: #FEF2EF;
+	border-bottom: 15px solid #EEE6E3;
+}
+
+.order-phone-section .phone-center{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.order-phone-section .phone-center h1{
+	font-size: 70px;
+	padding-bottom: 10px;
+}
+
+.order-phone-section .phone-center button {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #FEF2EF;
+}
+
+.order-phone-section .phone-center button a{
+	font-size: 40px;
+	text-decoration: none;
+
+}
+
+.order-phone-section .phone-center button a:link {
+	color: grey;
+}
+.order-phone-section .phone-center button a:hover {
+	color: #F6C3B5;
+}
+.order-phone-section .phone-center button a:active {
+  color: #efeade;
+}
+
+
+/* About Us Section  */
+
+.about-us-section {
+	background-image : url("https://images.unsplash.com/photo-1531984970149-862affa9a7ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=734&q=80");
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+  text-align: center;
+  color: #FEF2EF;
+	border-bottom: 15px solid #EEE6E3;
+}
+
+.about-us-section .about-us-center{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-us-section .about-us-center h1{
+	font-size: 70px;
+	padding-bottom: 10px;
+}
+
+.about-us-section .about-us-center button {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #FEF2EF;
+}
+
+.about-us-section .about-us-center button a{
+	font-size: 20px;
+	text-decoration: none;
+	color: grey;
+
+}
+.about-us-section .about-us-center button a:link {
+	color: grey;
+}
+.about-us-section .about-us-center button a:hover {
+	color: #F6C3B5;
+}
+.about-us-section .about-us-center button a:active {
+  color: #efeade;
+}
+
+/* GALLERY SECTION  */
+
+
+.gallery-section {
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 15px solid #EEE6E3;
+	display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 1rem;
+
+  }
+.gallery-section  img {
+	border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+
+}
