@@ -51,11 +51,15 @@ table {
 
 
 
+* {
+	box-sizing: border-box;
+}
 
 
 
-
-
+html {
+	width: 100%;
+}
 
 /*  SITE-CONTENT
 */
@@ -83,7 +87,8 @@ table {
 .top-social-section a {
 	color: white;
   font-size: 25px;
-	margin: 20px;
+	margin: 20px 20px 20px 20px;
+	text-shadow: 2px 2px #891f1f;
 }
 
 .top-social-section a:link {
@@ -99,13 +104,13 @@ table {
 */
 
 .main-menu-section {
-	position: relative;
 	height: 70px;
 	font-size: 25px;
 	margin-bottom: 20px;
-
+	margin: auto;
 }
 .main-menu-section .menu-links {
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -116,10 +121,8 @@ table {
 .main-menu-section .menu-links ul {
 	display: flex;
 	flex-basis: auto;
-
 	justify-content: center;
 	align-items: center;
-
 
 }
 
@@ -130,12 +133,13 @@ table {
 
 .main-menu-section .menu-links ul li a {
 	text-decoration: none;
-	margin: 60px 20px 20px 20px;
+	margin: 20px 20px 20px 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
 	color: white;
+	text-shadow: 2px 2px #891f1f;
 }
 
 .main-menu-section .menu-links ul li a:link {
@@ -171,13 +175,13 @@ table {
 	background-image: url("https://images.pexels.com/photos/227432/pexels-photo-227432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
 	width: 100%;
 	height: 100vh;
-	
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	position: relative;
   text-align: center;
-  color: white;
+
 }
 .title-image-section .title-container {
 
@@ -191,30 +195,52 @@ table {
 	text-align: center;
 	color:  #efeade;
 	font-family: 'Rock Salt', cursive;
-
+	text-shadow: 2.5px 2.5px #891f1f;
 }
 
 /* cakes-cakepops-section */
 
 .cakes-cakepops-section {
-	display: grid;
+
   height: auto;
-  grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;
+	/* */
+
 	border-bottom: 15px solid #EEE6E3;
 }
 
 .cakes-cakepops-section .sections{
-		margin: 70px;
-		color: #efeade;
-		text-align: center;
+	width: 90%;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #efeade;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+		/* width: 50%;
+		 */
+		/* display: grid;
+		grid-template-columns: 1fr 1fr; */
 }
 .cakes-cakepops-section .cakes{
-	grid-column: 2 / 6;
+	/* grid-column: 2 / 6; */
+	/* background-size: contain; */
+	display:block;
+
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .cakes-cakepops-section .cakepops {
-	grid-column: 7 / 11;
+
+	background-size: contain;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .cakes-cakepops-section .sections img {
@@ -222,15 +248,15 @@ table {
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	border: 10px solid #EEE6E3;
-	height: 100%;
-	width: 100%;
+	height: 283px;
+	width: 414px;
 }
 
 .cakes-cakepops-section .sections h1 {
 	font-size: 35px;
-	margin: 30px;
+	margin: 10px;
 	font-family: 'Bad Script', sans-serif;
-
+	text-shadow: 2px 2px #891f1f;
 }
 .cakes-cakepops-section .sections h5 {
 	font-size: 18px;
@@ -249,7 +275,7 @@ table {
 	background-position: center;
 	position: relative;
   text-align: center;
-  color: #FEF2EF;
+  color: #505050;
 	border-bottom: 15px solid #EEE6E3;
 }
 
@@ -263,6 +289,8 @@ table {
 .order-phone-section .phone-center h1{
 	font-size: 70px;
 	padding-bottom: 10px;
+	text-shadow: 2px 2px #891f1f;
+	color: #FEF2EF;
 }
 
 .order-phone-section .phone-center button {
@@ -279,7 +307,7 @@ table {
 }
 
 .order-phone-section .phone-center button a:link {
-	color: grey;
+	color: #891f1f;
 }
 .order-phone-section .phone-center button a:hover {
 	color: #F6C3B5;
@@ -314,6 +342,7 @@ table {
 .about-us-section .about-us-center h1{
 	font-size: 70px;
 	padding-bottom: 10px;
+	text-shadow: 2px 2px #891f1f;
 }
 
 .about-us-section .about-us-center button {
@@ -326,11 +355,11 @@ table {
 .about-us-section .about-us-center button a{
 	font-size: 20px;
 	text-decoration: none;
-	color: grey;
+	color: #505050;
 
 }
 .about-us-section .about-us-center button a:link {
-	color: grey;
+	color: #505050;
 }
 .about-us-section .about-us-center button a:hover {
 	color: #F6C3B5;
@@ -343,18 +372,76 @@ table {
 
 
 .gallery-section {
-	width: 100%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 	height: auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	border-bottom: 15px solid #EEE6E3;
+
 	display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap: 1rem;
+	grid-gap: 2rem;
 
   }
 .gallery-section  img {
 	border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+	margin-left: auto;
+	margin-right: auto;
+	width: 351px;
+	height: 518px;
+}
+
+
+
+/* GALLERY SECTION */
+
+footer {
+  background: #505050	;
+  padding: 30px 10px;
+	border-top: 15px solid #EEE6E3;
+  text-align: center;
+  color: white; }
+
+footer .menu {
+  margin-bottom: 15px; }
+  footer .menu li {
+    display: inline-block;
+    padding: 10px 20px; }
+    footer .menu li a {
+      font-weight: 600;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 0.8rem; }
+
+footer p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 25px; }
+
+footer .social-media li {
+  display: inline-block;
+  padding: 0 10px; }
+  footer .social-media li a {
+    color: white;
+    font-size: 2rem;
+    opacity: .5; }
+
+
+
+
+
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+	.cakes-cakepops-section .sections{
+		grid-column: 1fr;
+		grid-row: 1fr;
+		grid-gap: 1rem;
+	}
+
 
 }
