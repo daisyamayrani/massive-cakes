@@ -201,13 +201,10 @@ html {
 /* cakes-cakepops-section */
 
 .cakes-cakepops-section {
-
   height: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 2rem;
-	/* */
-
 	border-bottom: 15px solid #EEE6E3;
 }
 
@@ -221,18 +218,14 @@ html {
 	margin-top: 30px;
 	margin-bottom: 30px;
 
-		/* width: 50%;
-		 */
-		/* display: grid;
-		grid-template-columns: 1fr 1fr; */
 }
 .cakes-cakepops-section .cakes{
 	/* grid-column: 2 / 6; */
 	/* background-size: contain; */
 	display:block;
-
 	margin-left: auto;
 	margin-right: auto;
+	width: 80%;
 }
 
 .cakes-cakepops-section .cakepops {
@@ -241,6 +234,7 @@ html {
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 80%;
 }
 
 .cakes-cakepops-section .sections img {
@@ -257,6 +251,7 @@ html {
 	margin: 10px;
 	font-family: 'Bad Script', sans-serif;
 	text-shadow: 2px 2px #891f1f;
+	padding-top: 26px;
 }
 .cakes-cakepops-section .sections h5 {
 	font-size: 18px;
@@ -400,6 +395,7 @@ html {
 footer {
   background: #505050	;
   padding: 30px 10px;
+	padding-bottom: 20px;
 	border-top: 15px solid #EEE6E3;
   text-align: center;
   color: white; }
@@ -416,11 +412,6 @@ footer .menu {
       text-transform: uppercase;
       font-size: 0.8rem; }
 
-footer p {
-  font-size: 0.8rem;
-  font-weight: 300;
-  margin-bottom: 25px; }
-
 footer .social-media li {
   display: inline-block;
   padding: 0 10px; }
@@ -429,19 +420,49 @@ footer .social-media li {
     font-size: 2rem;
     opacity: .5; }
 
-
+		footer p {
+			font-size: 0.8rem;
+			font-weight: 300;
+			margin-top: 25px; }
 
 
 
 
 /* Media queries */
 
+@media only screen and (max-width: 966px) {
+	.cakes-cakepops-section {
+	  height: auto;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 10px;
+		border-bottom: 15px solid #EEE6E3;
+	}
+	.cakes-cakepops-section .cakes {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	.cakes-cakepops-section .cakepops {
+		padding-top: 0;
+		margin-top: 30px;
+	}
+}
+
 @media only screen and (min-width: 768px) {
 	.cakes-cakepops-section .sections{
 		grid-column: 1fr;
 		grid-row: 1fr;
-		grid-gap: 1rem;
+		grid-gap: 20px;
 	}
 
+}
 
+@media only screen and (max-width: 588px) {
+	.order-phone-section .phone-center button a {
+		font-size: 30px !important;
+	}
+	.order-phone-section .phone-center h1 {
+		font-size: 45px !important;
+	}
 }
