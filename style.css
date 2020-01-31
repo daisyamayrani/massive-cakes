@@ -106,11 +106,10 @@ html {
 .main-menu-section {
 	height: 70px;
 	font-size: 25px;
-	margin-bottom: 20px;
-	margin: auto;
+	margin-bottom: 10px;
+	width: auto;
 }
 .main-menu-section .menu-links {
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -133,7 +132,8 @@ html {
 
 .main-menu-section .menu-links ul li a {
 	text-decoration: none;
-	margin: 20px 20px 20px 20px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -174,7 +174,7 @@ html {
 .title-image-section {
 	background-image: url("https://images.pexels.com/photos/227432/pexels-photo-227432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
 	width: 100%;
-	height: 100vh;
+	height: 90vh;
 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -184,15 +184,17 @@ html {
 
 }
 .title-image-section .title-container {
-
+	width: 100%;
+	height: 90vh;
+	position: relative;
+  text-align: center;
 }
 .title-image-section .title-container h1{
-	display: flex;
-  height: 600px;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	font-size: 80px;
-  justify-content: center;
-  align-items: center;
-	text-align: center;
 	color:  #efeade;
 	font-family: 'Rock Salt', cursive;
 	text-shadow: 2.5px 2.5px #891f1f;
@@ -201,43 +203,55 @@ html {
 /* cakes-cakepops-section */
 
 .cakes-cakepops-section {
-  height: auto;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 2rem;
+	height: auto;
+	/* adjust the heights for grid rows with px */
 	border-bottom: 15px solid #EEE6E3;
 }
 
-.cakes-cakepops-section .sections{
-	width: 90%;
+.cakes-cakepops-section .cakes-title{
+	padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+	text-align: center;
+}
+
+.cakes-cakepops-section .cakes-title h1{
+	color: #FEF2EF;
+	font-size: 70px;
+	padding-bottom: 10px;
+	text-shadow: 2px 2px #891f1f;
+}
+
+.cakes-cakepops-section .order-contain .sections{
+	/* width: 80%; */
 	height: auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	/* padding-top: 30px;
+	padding-bottom: 30px; */
 	text-align: center;
 	color: #efeade;
-	margin-top: 30px;
-	margin-bottom: 30px;
-
 }
-.cakes-cakepops-section .cakes{
-	/* grid-column: 2 / 6; */
-	/* background-size: contain; */
+
+.cakes-cakepops-section .order-contain {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.cakes-cakepops-section .order-contain .cakes{
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 100%;
 }
 
-.cakes-cakepops-section .cakepops {
-
-	background-size: contain;
-	display:block;
+.cakes-cakepops-section .order-contain .cakepops {
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 100%;
 }
 
-.cakes-cakepops-section .sections img {
+.cakes-cakepops-section .order-contain .sections img {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
@@ -246,14 +260,14 @@ html {
 	width: 414px;
 }
 
-.cakes-cakepops-section .sections h1 {
+.cakes-cakepops-section .order-contain .sections h1 {
 	font-size: 35px;
 	margin: 10px;
 	font-family: 'Bad Script', sans-serif;
 	text-shadow: 2px 2px #891f1f;
 	padding-top: 26px;
 }
-.cakes-cakepops-section .sections h5 {
+.cakes-cakepops-section .order-contain .sections h5 {
 	font-size: 18px;
 	font-family: 'Bad Script', sans-serif;
 }
@@ -273,6 +287,7 @@ html {
   color: #505050;
 	border-bottom: 15px solid #EEE6E3;
 }
+
 
 .order-phone-section .phone-center{
 	position: absolute;
@@ -344,20 +359,22 @@ html {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+	border: 3px solid white;
 	background-color: #FEF2EF;
 }
 
 .about-us-section .about-us-center button a{
-	font-size: 20px;
+	font-size: 25px;
 	text-decoration: none;
-	color: #505050;
+	color: #891f1f;
 
 }
 .about-us-section .about-us-center button a:link {
 	color: #505050;
 }
 .about-us-section .about-us-center button a:hover {
-	color: #F6C3B5;
+	color: white;
+	text-shadow: 2px 2px #891f1f;
 }
 .about-us-section .about-us-center button a:active {
   color: #efeade;
@@ -431,36 +448,54 @@ footer .social-media li {
 /* Media queries */
 
 @media only screen and (max-width: 966px) {
-	.cakes-cakepops-section {
-	  height: auto;
+
+	.cakes-cakepops-section .order-contain{
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr;
-		grid-gap: 10px;
-		border-bottom: 15px solid #EEE6E3;
+		grid-template-rows: 1fr;
 	}
-	.cakes-cakepops-section .cakes {
-		padding-bottom: 0;
-		margin-bottom: 0;
-	}
-	.cakes-cakepops-section .cakepops {
-		padding-top: 0;
-		margin-top: 30px;
+	.cakes-cakepops-section .order-contain .cakes {
+		padding-bottom: 60px;
 	}
 }
 
-@media only screen and (min-width: 768px) {
-	.cakes-cakepops-section .sections{
-		grid-column: 1fr;
-		grid-row: 1fr;
-		grid-gap: 20px;
-	}
+@media (min-width: 1178px) {
+	.cakes-cakepops-section .order-contain{
 
+	}
+	.cakes-cakepops-section .order-contain .cakes {
+
+	}
 }
 
+
+
+/* SMALL screens */
 @media only screen and (max-width: 588px) {
+
+	.cakes-cakepops-section .order-contain{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+
+	}
+	.cakes-cakepops-section .order-contain .cakes {
+		padding-bottom: 60px;
+	}
+	.cakes-cakepops-section .order-contain .sections .textbox-cakes {
+		width: 80%;
+		height: 80%;
+		margin: auto;
+	}
+
+	.cakes-cakepops-section .order-contain .sections img {
+		width: 80%;
+		height: 80%;
+	}
+
+
 	.order-phone-section .phone-center button a {
-		font-size: 30px !important;
+		font-size: 26px !important;
 	}
 	.order-phone-section .phone-center h1 {
 		font-size: 45px !important;
