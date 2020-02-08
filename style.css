@@ -70,9 +70,10 @@ html {
 	height: 100%;
 }
 
+
+
 /*  top-social-section
 */
-
 
 .top-social-section {
   background-color: black;
@@ -104,48 +105,40 @@ html {
 */
 
 .main-menu-section {
-	height: 70px;
-	font-size: 25px;
-	margin-bottom: 10px;
-	width: auto;
+	height: 50px;
+	font-size: 23px;
+
+
 }
 .main-menu-section .menu-links {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 20px;
 	z-index: 3;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 .main-menu-section .menu-links ul {
 	display: flex;
-	flex-basis: auto;
 	justify-content: center;
 	align-items: center;
+	height: 50px;
+	width: 100%;
 
 }
-
 .main-menu-section .menu-links ul li {
-	color: white;
-	height: 20px;
-}
 
+}
 .main-menu-section .menu-links ul li a {
+	color: white;
+	text-shadow: 2px 2px #891f1f;
 	text-decoration: none;
-	padding: 10px 10px 10px 10px;
-	margin-top: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100%;
-	color: white;
-	text-shadow: 2px 2px #891f1f;
-}
 
+}
 .main-menu-section .menu-links ul li a:link {
 	/* color: white; */
 }
-
 .main-menu-section .menu-links ul li a:hover {
 	color: #F2E1DD;
 }
@@ -156,7 +149,6 @@ html {
 .link1 {
 	flex: 1;
 }
-
 .link2 {
 	flex: 1;
 }
@@ -164,7 +156,7 @@ html {
 	flex: 1;
 }
 .link4 {
-	flex: 1.5;
+	flex: 1;
 }
 
 
@@ -175,13 +167,11 @@ html {
 	background-image: url("https://images.pexels.com/photos/227432/pexels-photo-227432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
 	width: 100%;
 	height: 90vh;
-
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	position: relative;
   text-align: center;
-
 }
 .title-image-section .title-container {
 	width: 100%;
@@ -207,26 +197,20 @@ html {
 	/* adjust the heights for grid rows with px */
 	border-bottom: 15px solid #EEE6E3;
 }
-
 .cakes-cakepops-section .cakes-title{
 	padding-top: 20px;
   justify-content: center;
   align-items: center;
 	text-align: center;
 }
-
 .cakes-cakepops-section .cakes-title h1{
 	color: #FEF2EF;
 	font-size: 70px;
 	padding-bottom: 10px;
 	text-shadow: 2px 2px #891f1f;
 }
-
 .cakes-cakepops-section .order-contain .sections{
-	/* width: 80%; */
 	height: auto;
-	/* padding-top: 30px;
-	padding-bottom: 30px; */
 	text-align: center;
 	color: #efeade;
 }
@@ -243,14 +227,12 @@ html {
 	margin-right: auto;
 	width: 100%;
 }
-
 .cakes-cakepops-section .order-contain .cakepops {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 }
-
 .cakes-cakepops-section .order-contain .sections img {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -259,7 +241,6 @@ html {
 	height: 283px;
 	width: 414px;
 }
-
 .cakes-cakepops-section .order-contain .sections h1 {
 	font-size: 35px;
 	margin: 10px;
@@ -287,35 +268,28 @@ html {
   color: #505050;
 	border-bottom: 15px solid #EEE6E3;
 }
-
-
 .order-phone-section .phone-center{
 	position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .order-phone-section .phone-center h1{
 	font-size: 70px;
 	padding-bottom: 10px;
 	text-shadow: 2px 2px #891f1f;
 	color: #FEF2EF;
 }
-
 .order-phone-section .phone-center button {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	background-color: #FEF2EF;
 }
-
 .order-phone-section .phone-center button a{
 	font-size: 40px;
 	text-decoration: none;
-
 }
-
 .order-phone-section .phone-center button a:link {
 	color: #891f1f;
 }
@@ -341,20 +315,17 @@ html {
   color: #FEF2EF;
 	border-bottom: 15px solid #EEE6E3;
 }
-
 .about-us-section .about-us-center{
 	position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .about-us-section .about-us-center h1{
 	font-size: 70px;
 	padding-bottom: 10px;
 	text-shadow: 2px 2px #891f1f;
 }
-
 .about-us-section .about-us-center button {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -362,12 +333,11 @@ html {
 	border: 3px solid white;
 	background-color: #FEF2EF;
 }
-
 .about-us-section .about-us-center button a{
-	font-size: 25px;
+	font-size: 20px;
+	padding: 12px;
 	text-decoration: none;
 	color: #891f1f;
-
 }
 .about-us-section .about-us-center button a:link {
 	color: #505050;
@@ -390,19 +360,17 @@ html {
 	height: auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
-
 	display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 2rem;
-
   }
 .gallery-section  img {
 	border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
 	margin-left: auto;
 	margin-right: auto;
-	width: 351px;
-	height: 518px;
+	width: 320px;
+	height: 500px;
 }
 
 
@@ -415,32 +383,39 @@ footer {
 	padding-bottom: 20px;
 	border-top: 15px solid #EEE6E3;
   text-align: center;
-  color: white; }
+  color: white;
+}
 
 footer .menu {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
   footer .menu li {
     display: inline-block;
-    padding: 10px 20px; }
+    padding: 10px 20px;
+	}
     footer .menu li a {
       font-weight: 600;
       color: white;
       text-decoration: none;
       text-transform: uppercase;
-      font-size: 0.8rem; }
+      font-size: 0.8rem;
+		}
 
 footer .social-media li {
   display: inline-block;
-  padding: 0 10px; }
+  padding: 0 10px;
+}
   footer .social-media li a {
     color: white;
     font-size: 2rem;
-    opacity: .5; }
+    opacity: .5;
+	}
 
 		footer p {
 			font-size: 0.8rem;
 			font-weight: 300;
-			margin-top: 25px; }
+			margin-top: 25px;
+		}
 
 
 
@@ -472,12 +447,28 @@ footer .social-media li {
 
 /* SMALL screens */
 @media only screen and (max-width: 588px) {
+	.title-image-section .title-container h1 {
+		/* font-size: 30px; */
+	}
+	.main-menu-section{
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		}
+		.main-menu-section .menu-links{
+			width: 100%;
+			margin-right: auto;
+			margin-left: auto;
+			}
+
+	.title-image-section .title-container h1 {
+		font-size: 3.5rem;
+	}
 
 	.cakes-cakepops-section .order-contain{
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
-
 	}
 	.cakes-cakepops-section .order-contain .cakes {
 		padding-bottom: 60px;
@@ -487,17 +478,29 @@ footer .social-media li {
 		height: 80%;
 		margin: auto;
 	}
-
 	.cakes-cakepops-section .order-contain .sections img {
 		width: 80%;
 		height: 80%;
 	}
 
 
+	.order-phone-section .phone-center  {
+		width: 100%;
+	}
+	.order-phone-section .phone-center button {
+		width: 70%;
+	}
 	.order-phone-section .phone-center button a {
-		font-size: 26px !important;
+		font-size: 30px !important;
 	}
 	.order-phone-section .phone-center h1 {
-		font-size: 45px !important;
+		font-size: 40px !important;
 	}
+
+	.gallery-section  img {
+		width: 280px;
+		height: 500px;
+	}
+
+
 }
