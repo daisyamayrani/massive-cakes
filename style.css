@@ -75,7 +75,7 @@ html {
 /*  top-social-section
 */
 
-.top-social-section {
+#top-social-section {
   background-color: black;
   height: 50px;
 	display: flex;
@@ -85,49 +85,49 @@ html {
 
 }
 
-.top-social-section a {
+#top-social-section a {
 	color: white;
   font-size: 25px;
 	margin: 20px 20px 20px 20px;
 	text-shadow: 2px 2px #891f1f;
 }
 
-.top-social-section a:link {
+#top-social-section a:link {
 	color: white;
 }
-.top-social-section  a:hover {
+#top-social-section  a:hover {
 	color: #F6C3B5;
 }
-.top-social-section a:active {
+#top-social-section a:active {
   color: #efeade;
 }
+
+
+
 /*  main-menu-section
 */
 
-.main-menu-section {
+#main-menu-section {
 	height: 50px;
 	font-size: 23px;
-
-
 }
-.main-menu-section .menu-links {
+#main-menu-section .menu-links {
 	z-index: 3;
-	width: 60%;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
-.main-menu-section .menu-links ul {
+#main-menu-section .menu-links ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 50px;
-	width: 100%;
 
 }
-.main-menu-section .menu-links ul li {
+#main-menu-section .menu-links ul li {
 
 }
-.main-menu-section .menu-links ul li a {
+#main-menu-section .menu-links ul li a {
 	color: white;
 	text-shadow: 2px 2px #891f1f;
 	text-decoration: none;
@@ -136,13 +136,13 @@ html {
 	align-items: center;
 
 }
-.main-menu-section .menu-links ul li a:link {
+#main-menu-section .menu-links ul li a:link {
 	/* color: white; */
 }
-.main-menu-section .menu-links ul li a:hover {
+#main-menu-section .menu-links ul li a:hover {
 	color: #F2E1DD;
 }
-.main-menu-section .menu-links ul li a:active {
+#main-menu-section .menu-links ul li a:active {
 	color: #902E13;
 }
 
@@ -163,7 +163,7 @@ html {
 
 /* title-image-section */
 
-.title-image-section {
+#title-image-section {
 	background-image: url("https://images.pexels.com/photos/227432/pexels-photo-227432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
 	width: 100%;
 	height: 90vh;
@@ -173,13 +173,13 @@ html {
 	position: relative;
   text-align: center;
 }
-.title-image-section .title-container {
+#title-image-section .title-container {
 	width: 100%;
 	height: 90vh;
 	position: relative;
   text-align: center;
 }
-.title-image-section .title-container h1{
+#title-image-section .title-container h1{
 	position: absolute;
   top: 50%;
   left: 50%;
@@ -192,48 +192,48 @@ html {
 
 /* cakes-cakepops-section */
 
-.cakes-cakepops-section {
+#cakes-cakepops-section {
 	height: auto;
 	/* adjust the heights for grid rows with px */
 	border-bottom: 15px solid #EEE6E3;
 }
-.cakes-cakepops-section .cakes-title{
+#cakes-cakepops-section .cakes-title{
 	padding-top: 20px;
   justify-content: center;
   align-items: center;
 	text-align: center;
 }
-.cakes-cakepops-section .cakes-title h1{
+#cakes-cakepops-section .cakes-title h1{
 	color: #FEF2EF;
 	font-size: 70px;
 	padding-bottom: 10px;
 	text-shadow: 2px 2px #891f1f;
 }
-.cakes-cakepops-section .order-contain .sections{
+#cakes-cakepops-section .order-contain .sections{
 	height: auto;
 	text-align: center;
 	color: #efeade;
 }
 
-.cakes-cakepops-section .order-contain {
+#cakes-cakepops-section .order-contain {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	padding-top: 40px;
 	padding-bottom: 60px;
 }
-.cakes-cakepops-section .order-contain .cakes{
+#cakes-cakepops-section .order-contain .cakes{
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 }
-.cakes-cakepops-section .order-contain .cakepops {
+#cakes-cakepops-section .order-contain .cakepops {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 }
-.cakes-cakepops-section .order-contain .sections img {
+#cakes-cakepops-section .order-contain .sections img {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
@@ -241,14 +241,14 @@ html {
 	height: 283px;
 	width: 414px;
 }
-.cakes-cakepops-section .order-contain .sections h1 {
+#cakes-cakepops-section .order-contain .sections h1 {
 	font-size: 35px;
 	margin: 10px;
 	font-family: 'Bad Script', sans-serif;
 	text-shadow: 2px 2px #891f1f;
 	padding-top: 26px;
 }
-.cakes-cakepops-section .order-contain .sections h5 {
+#cakes-cakepops-section .order-contain .sections h5 {
 	font-size: 18px;
 	font-family: 'Bad Script', sans-serif;
 }
@@ -256,7 +256,7 @@ html {
 
 /* Order Phone Section  */
 
-.order-phone-section {
+#order-phone-section {
 	background-image : url("https://images.pexels.com/photos/1857157/pexels-photo-1857157.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 	width: 100%;
 	height: 700px;
@@ -268,42 +268,42 @@ html {
   color: #505050;
 	border-bottom: 15px solid #EEE6E3;
 }
-.order-phone-section .phone-center{
+#order-phone-section .phone-center{
 	position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.order-phone-section .phone-center h1{
+#order-phone-section .phone-center h1{
 	font-size: 70px;
 	padding-bottom: 10px;
 	text-shadow: 2px 2px #891f1f;
 	color: #FEF2EF;
 }
-.order-phone-section .phone-center button {
+#order-phone-section .phone-center button {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	background-color: #FEF2EF;
 }
-.order-phone-section .phone-center button a{
+#order-phone-section .phone-center button a{
 	font-size: 40px;
 	text-decoration: none;
 }
-.order-phone-section .phone-center button a:link {
+#order-phone-section .phone-center button a:link {
 	color: #891f1f;
 }
-.order-phone-section .phone-center button a:hover {
+#order-phone-section .phone-center button a:hover {
 	color: #F6C3B5;
 }
-.order-phone-section .phone-center button a:active {
+#order-phone-section .phone-center button a:active {
   color: #efeade;
 }
 
 
 /* About Us Section  */
 
-.about-us-section {
+#about-us-section {
 	background-image : url("https://images.unsplash.com/photo-1531984970149-862affa9a7ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=734&q=80");
 	width: 100%;
 	height: 700px;
@@ -315,45 +315,45 @@ html {
   color: #FEF2EF;
 	border-bottom: 15px solid #EEE6E3;
 }
-.about-us-section .about-us-center{
+#about-us-section .about-us-center{
 	position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.about-us-section .about-us-center h1{
+#about-us-section .about-us-center h1{
 	font-size: 70px;
 	padding-bottom: 10px;
 	text-shadow: 2px 2px #891f1f;
 }
-.about-us-section .about-us-center button {
+#about-us-section .about-us-center button {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	border: 3px solid white;
 	background-color: #FEF2EF;
 }
-.about-us-section .about-us-center button a{
+#about-us-section .about-us-center button a{
 	font-size: 20px;
 	padding: 12px;
 	text-decoration: none;
 	color: #891f1f;
 }
-.about-us-section .about-us-center button a:link {
+#about-us-section .about-us-center button a:link {
 	color: #505050;
 }
-.about-us-section .about-us-center button a:hover {
+#about-us-section .about-us-center button a:hover {
 	color: white;
 	text-shadow: 2px 2px #891f1f;
 }
-.about-us-section .about-us-center button a:active {
+#about-us-section .about-us-center button a:active {
   color: #efeade;
 }
 
 /* GALLERY SECTION  */
 
 
-.gallery-section {
+#gallery-section {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -364,7 +364,7 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 2rem;
   }
-.gallery-section  img {
+#gallery-section  img {
 	border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
 	margin-left: auto;
@@ -424,21 +424,21 @@ footer .social-media li {
 
 @media only screen and (max-width: 966px) {
 
-	.cakes-cakepops-section .order-contain{
+	#cakes-cakepops-section .order-contain{
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
 	}
-	.cakes-cakepops-section .order-contain .cakes {
+	#cakes-cakepops-section .order-contain .cakes {
 		padding-bottom: 60px;
 	}
 }
 
 @media (min-width: 1178px) {
-	.cakes-cakepops-section .order-contain{
+	#cakes-cakepops-section .order-contain{
 
 	}
-	.cakes-cakepops-section .order-contain .cakes {
+	#cakes-cakepops-section .order-contain .cakes {
 
 	}
 }
@@ -447,57 +447,57 @@ footer .social-media li {
 
 /* SMALL screens */
 @media only screen and (max-width: 588px) {
-	.title-image-section .title-container h1 {
+	#title-image-section .title-container h1 {
 		/* font-size: 30px; */
 	}
-	.main-menu-section{
+	#main-menu-section{
 		width: 90%;
 		margin-right: auto;
 		margin-left: auto;
 		}
-		.main-menu-section .menu-links{
+		#main-menu-section .menu-links{
 			width: 100%;
 			margin-right: auto;
 			margin-left: auto;
 			}
 
-	.title-image-section .title-container h1 {
+	#title-image-section .title-container h1 {
 		font-size: 3.5rem;
 	}
 
-	.cakes-cakepops-section .order-contain{
+	#cakes-cakepops-section .order-contain{
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr;
 	}
-	.cakes-cakepops-section .order-contain .cakes {
+	#cakes-cakepops-section .order-contain .cakes {
 		padding-bottom: 60px;
 	}
-	.cakes-cakepops-section .order-contain .sections .textbox-cakes {
+	#cakes-cakepops-section .order-contain .sections .textbox-cakes {
 		width: 80%;
 		height: 80%;
 		margin: auto;
 	}
-	.cakes-cakepops-section .order-contain .sections img {
+	#cakes-cakepops-section .order-contain .sections img {
 		width: 80%;
 		height: 80%;
 	}
 
 
-	.order-phone-section .phone-center  {
+	#order-phone-section .phone-center  {
 		width: 100%;
 	}
-	.order-phone-section .phone-center button {
+	#order-phone-section .phone-center button {
 		width: 70%;
 	}
-	.order-phone-section .phone-center button a {
+	#order-phone-section .phone-center button a {
 		font-size: 30px !important;
 	}
-	.order-phone-section .phone-center h1 {
+	#order-phone-section .phone-center h1 {
 		font-size: 40px !important;
 	}
 
-	.gallery-section  img {
+	#gallery-section  img {
 		width: 280px;
 		height: 500px;
 	}
