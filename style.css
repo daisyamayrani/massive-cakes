@@ -129,7 +129,7 @@ html {
 }
 #main-menu-section .menu-links ul li a {
 	color: white;
-	text-shadow: 2px 2px #891f1f;
+	text-shadow: 1.5px 1.5px #891f1f;
 	text-decoration: none;
 	display: flex;
 	justify-content: center;
@@ -245,7 +245,7 @@ html {
 	font-size: 35px;
 	margin: 10px;
 	font-family: 'Bad Script', sans-serif;
-	text-shadow: 2px 2px #891f1f;
+	text-shadow: 1.5px 1.5px #891f1f;
 	padding-top: 26px;
 }
 #cakes-cakepops-section .order-contain .sections h5 {
@@ -277,7 +277,7 @@ html {
 #order-phone-section .phone-center h1{
 	font-size: 70px;
 	padding-bottom: 10px;
-	text-shadow: 2px 2px #891f1f;
+	text-shadow: 1.5px 1.5px #891f1f;
 	color: #FEF2EF;
 }
 #order-phone-section .phone-center button {
@@ -298,6 +298,7 @@ html {
 }
 #order-phone-section .phone-center button a:active {
   color: #efeade;
+	background-color: #891f1f;
 }
 
 
@@ -330,8 +331,8 @@ html {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	border: 3px solid white;
-	background-color: #FEF2EF;
+	border: 3px solid #FEF2EF;
+	background-color: white;
 }
 #about-us-section .about-us-center button a{
 	font-size: 20px;
@@ -343,7 +344,7 @@ html {
 	color: #505050;
 }
 #about-us-section .about-us-center button a:hover {
-	color: white;
+	color: #FEF2EF;
 	text-shadow: 2px 2px #891f1f;
 }
 #about-us-section .about-us-center button a:active {
@@ -352,19 +353,27 @@ html {
 
 /* GALLERY SECTION  */
 
+#gallery-section h1 {
+	font-size: 70px;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	text-shadow: 2px 2px #891f1f;
+	text-align: center;
+  color: #FEF2EF;
+}
 
-#gallery-section {
+#gallery-section .gallery-box{
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 	display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 2rem;
   }
-#gallery-section  img {
+#gallery-section .gallery-box img {
 	border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
 	margin-left: auto;
@@ -372,6 +381,7 @@ html {
 	width: 320px;
 	height: 500px;
 }
+
 
 
 
