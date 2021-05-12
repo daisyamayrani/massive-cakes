@@ -1,73 +1,71 @@
 <!DOCTYPE html>
-<html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Massive Cakes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bad+Script|Gloria+Hallelujah|Rock+Salt" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bad+Script|Gloria+Hallelujah|Rock+Salt"
+      rel="stylesheet"
+    />
+    <script async src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
 
   <body>
-    <div class="site-content">
-
-      <div id="top-social-section">
-        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+    <!--Navigation bar-->
+    <div id="topnav-row" class="topnavRow"></div>
+    <script>
+      $(function () {
+        $("#topnav-row").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
+      
+    <div id="title-image-section">
+      <div class="overlay"></div>
+      <div class="title-container">
+        <h1>Massive Cakes</h1>
       </div>
-      <!-- END OF  top-social-section -->
-
-      <div id="main-menu-section">
-        <div class="menu-links">
-          <ul>
-            <li class="link1">
-              <a href="#about-us-section" class="about">About</a>
-            </li>
-            <li class="link2">
-              <a href="#order-phone-section" class="contact-us">Contact</a>
-            </li>
-            <li class="link3">
-              <a href="#" class="menus">Menus</a>
-            </li>
-            <li class="link4">
-              <a href="#" class="catering">Catering</a>
-            </li>
-
-          </ul>
-        </div> <!-- END OF menu-links-->
-      </div>
-      <!-- END OF main-menu-section-->
-
-      <div id="title-image-section">
-        <div class="title-container">
-          <h1>Massive Cakes</h1>
-        </div>
-      </div>
-      <!-- END OF  title-image-section -->
-
+    </div>
+    <!-- END OF  title-image-section -->
+    
       <div id="cakes-cakepops-section">
         <div class="cakes-title">
           <h1>Made To Order</h1>
         </div>
         <div class="order-contain">
           <div class="cakes sections">
-            <img src="https://images.pexels.com/photos/265801/pexels-photo-265801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="cakes">
+            <img
+              src="https://images.pexels.com/photos/265801/pexels-photo-265801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="cakes"
+            />
             <div class="textbox-cakes">
               <h1>Custom Cakes</h1>
-              <h5>We make the cakes of all flavors the same day as your event!</h5>
+              <h5>
+                We make the cakes of all flavors the same day as your event!
+              </h5>
             </div>
           </div>
           <div class="cakepops sections">
-            <img src="https://images.pexels.com/photos/37537/cake-pops-candies-chocolate-food-37537.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="cakepops">
+            <img
+              src="https://images.pexels.com/photos/37537/cake-pops-candies-chocolate-food-37537.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="cakepops"
+            />
             <div class="textbox-cakes">
               <h1>Custom Cakepops</h1>
-              <h5>We have a variety of cakepops to chose from come see our menus.</h5>
+              <h5>
+                We have a variety of cakepops to chose from come see our menus.
+              </h5>
             </div>
           </div>
         </div>
-
       </div>
       <!-- END OF cakes-cakepops-section-->
 
@@ -84,7 +82,7 @@
       <div id="about-us-section">
         <div class="about-us-center">
           <h1>About Us</h1>
-          <button><a href="#">Read More...</a></button>
+          <button><a href="about.html">Read More...</a></button>
         </div>
       </div>
       <!-- END OF  about-us-section -->
@@ -92,57 +90,53 @@
       <div id="gallery-section">
         <h1>Gallery of Our Work</h1>
         <div class="gallery-box">
-          <img src="https://images.unsplash.com/photo-1541702107-8723bc4a26ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="wedding cake">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO1a8NV5TA0VlW1GbWjGiovG0pOajIfEkQBYuyVdHY3WEweXasbg" alt="lemon cake">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzfJGjy3AkqeqjyJxa6hL2kXjkNJoyXP-N2F-FPszo-OlW4bKc" alt="pink flower cake">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXpa2XnP7nFIP3scnaKkRrPEy6kf0Rpt4HTmcC6wklFnSALPQr" alt="plain white cake with flowers">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNdEsnMSO8pBFyCc6z1Mss5LUOlB3d98rdoAjCLQOcvgtgPs0DBg" alt="chocolate cake">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO_O46GLSlTXspjRnkfMUyz-Lv5fZQRqIUWeR_ZOBnIUG0UTRbag" alt="flan cake">
+          <img
+            src="https://images.unsplash.com/photo-1541702107-8723bc4a26ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+            alt="wedding cake"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=335&q=80"
+            alt="strawberry cake"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1562777717-dc6984f65a63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80"
+            alt="purple flower cake"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80"
+            alt="plain white and brown cake with pattern"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1516054575922-f0b8eeadec1a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80"
+            alt="chocolate cake"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1562440499-64c9a111f713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+            alt="macaroon cake"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1557308536-ee471ef2c390?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNha2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="pink drops cake"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt="classy cake"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=680&q=80"
+            alt="chocolate cake"
+          />
         </div>
-    </div>
-    <!-- END OF  gallery-section -->
+      </div>
+      <!-- END OF  gallery-section -->
 
-    <footer>
-        <div class="container">
-          <ul class="menu">
-            <li>
-              <a href="#gallery-section">Gallery</a>
-            </li>
-            <li>
-              <a href="#cakes-cakepops-section">Goodies</a>
-            </li>
-            <li>
-              <a href="#order-phone-section">Contact Info</a>
-            </li>
-          </ul>
-
-          <ul class="social-media">
-            <li>
-              <a href="https://www.facebook.com/" target="new">
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.twitter.com/" target="new">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.google.com/" target="new">
-                <i class="fab fa-google"></i>
-              </a>
-            </li>
-          </ul>
-
-          <p>&#9400; Massive Cakes. All Rights Reserved</p>
-        </div>
-      </footer>
-      <!-- end of footer -->
-
-    </div>
-    <!-- END OF  SITE-CONTENT -->
-
-    <script src="script.js"></script>
-
+      <!--Footer-->
+      <footer class="footer"></footer>
+      <script>
+        $(function () {
+          $("footer").load("footer.html");
+        });
+      </script>
+      <!--end of Footer-->
   </body>
 </html>
