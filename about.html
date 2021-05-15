@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Massive Cakes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bad+Script|Gloria+Hallelujah|Rock+Salt"
-      rel="stylesheet"
-    />
-    <script async src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Massive Cakes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bad+Script|Gloria+Hallelujah|Rock+Salt|Roboto:wght@300|Noto+Sans+JP"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script async src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
 
   <body>
     <!--Navigation bar-->
@@ -27,17 +29,38 @@
       });
     </script>
     <!--end of Navigation bar-->
+    
+    <section class="container">
+      <section class="title">
+        <div>
+          <h1 class="mainTitle">About Us</h1>
+        </div>
+      </section>
+  
+      <section class="main row align-items-center">
+        <div class="img-section col">
+          <img src="img/baking.jpeg" alt="baking supplies">
+        </div>
+        <div class="text-section col align-center">
+          <p>We are a company that is passionate about baking. We take pride in our creations and love being part of every milestone celebrations of our customer. 
+          </p>
+          <p>We were originally founded in Huntington Beach, California and have now been servicing all of Orange County and Los Angeles County. 
+          </p>
+          <button class="pinkBtn"><a href="menu.html">Gallery Menu</a></button>
+        </div>
+      </section>
+    </section>
 
 
 
 
-      <!--Footer-->
-      <footer class="footer"></footer>
-      <script>
-        $(function () {
-          $("footer").load("footer.html");
-        });
-      </script>
-      <!--end of Footer-->
+    <!--Footer-->
+    <footer class="footer"></footer>
+    <script>
+      $(function () {
+        $("footer").load("footer.html");
+      });
+    </script>
+    <!--end of Footer-->
   </body>
 </html>
