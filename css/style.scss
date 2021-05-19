@@ -675,3 +675,24 @@ body {
 
 ////////////////////////////////////////
 // End of ABOUT US PAGE
+
+////////////////////////////////////////
+// CONTACT PAGE
+
+.container {
+  .title {
+    .text-box {
+      margin-bottom: 4rem;
+      p {
+        a {
+          text-decoration: none;
+          color: $wineRed;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+////////////////////////////////////////
+// END of CONTACT PAGE
